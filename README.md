@@ -1,19 +1,23 @@
-# 🛡️ Home SOC Lab (Wazuh + Cowrie + Sysmon)
+# 🛡️ Home SOC Lab (Wazuh + Cowrie Honeypot)
 
 ## 📌 Objective
-This project documents the creation of a home SOC lab to simulate real-world security monitoring and detection.
+This project focuses on building a home SOC lab to simulate attacker activity and observe how it is captured, ingested, and analyzed within a SIEM. It highlights the end-to-end process of detection and basic security event investigation.
 
 ## 🧱 Tools Used
-- Wazuh (SIEM/XDR)
-- Cowrie (Honeypot)
-- Windows + Sysmon (Endpoint Monitoring)
+- Wazuh (SIEM / Log Analysis)
+- Cowrie (SSH Honeypot)
+- VirtualBox (Lab Environment)
+- Linux (Ubuntu)
 
-## 🎯 Goals
-- Capture attacker activity using a honeypot
-- Centralize logs in Wazuh
-- Analyze security events
-- Build hands-on SOC experience
+## 🏗️ Lab Setup
+The lab was built using Oracle VM VirtualBox with multiple virtual machines to simulate a basic SOC environment. Wazuh was configured as the central SIEM for log collection and analysis, while Cowrie was deployed as an SSH honeypot to capture and monitor attacker activity.
 
-## 🚧 Status
-Step 1: Planning ✅  
-Step 2: VirtualBox Setup ⏳
+## 🎯 What I Did
+
+- Set up a virtual SOC lab using Oracle VM VirtualBox  
+- Installed and configured Wazuh for log monitoring and alerting  
+- Simulated failed login attempts to generate authentication logs  
+- Verified detection of suspicious activity in Wazuh  
+- Deployed Cowrie honeypot to capture attacker interactions  
+- Simulated attacker access via SSH and executed commands  
+- Analyzed honeypot activity and alerts within the Wazuh dashboard  
