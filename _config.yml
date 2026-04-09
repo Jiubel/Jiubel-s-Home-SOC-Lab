@@ -1,5 +1,3 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+title: Home SOC Lab
+description: SOC Lab using Wazuh and Cowrie
 theme: jekyll-theme-hacker
