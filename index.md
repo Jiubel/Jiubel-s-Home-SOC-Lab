@@ -3,7 +3,7 @@ layout: default
 title: Home SOC Lab
 ---
 
-# 🛡️ Home SOC Lab (Wazuh + Cowrie Honeypot)
+# Jiubel's Home SOC Lab (Wazuh + Cowrie Honeypot)
 
 ## Overview
 This project focuses on building a home SOC lab to simulate attacker activity and observe how it is captured, ingested, and analyzed within a SIEM. It demonstrates the basic workflow of attack simulation, log collection, alerting, and investigation.
