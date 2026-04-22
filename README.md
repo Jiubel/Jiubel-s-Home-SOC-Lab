@@ -1,7 +1,7 @@
 # Security Monitoring & Detection Lab (Wazuh + Cowrie Honeypot)
 
 ## Overview
-Designed and implemented a security monitoring environment to simulate attacker activity and analyze how events are captured, ingested, and detected within a SIEM.
+Deployed and tested a security monitoring environment to simulate attacker activity and analyze how events are captured, ingested, and detected within a SIEM.
 
 The environment integrates a Cowrie SSH honeypot with a Wazuh SIEM to replicate a simplified SOC workflow, enabling the generation, processing, and detection of security events based on real attacker behavior.
 
